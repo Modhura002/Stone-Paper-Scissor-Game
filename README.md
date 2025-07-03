@@ -7,7 +7,7 @@ Built using **HTML**, **CSS**, and **JavaScript**.
 
 ## 📸 Screenshot
 
-![Game Screenshot](screenshot.png)
+![Game Screenshot](screenshot of game.png)
 
 ---
 
@@ -37,5 +37,5 @@ Built using **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
-## 📁 Project Structure
+ 
 
