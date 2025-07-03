@@ -43,6 +43,35 @@ let compScore=1;
             }
         
     }
+     else if(myChoice=="rock"){
+        if(compChoice=="scissor"){
+            playerS.innerText=playerScore++;
+            button.innerText="You win! Your rock wins against computer's scissor";
+             button.style.backgroundColor="rgb(7, 142, 23)";
+
+        }
+        else 
+            {compS.innerText=compScore++;
+                button.innerText="You lose! Computer's paper wins against your rock";
+             button.style.backgroundColor="rgb(142, 11, 7)";
+            }
+        
+    }
+
+     else if(myChoice=="rock"){
+        if(compChoice=="scissor"){
+            playerS.innerText=playerScore++;
+            button.innerText="You win! Your rock wins against computer's scissor";
+             button.style.backgroundColor="rgb(7, 142, 23)";
+
+        }
+        else 
+            {compS.innerText=compScore++;
+                button.innerText="You lose! Computer's paper wins against your rock";
+             button.style.backgroundColor="rgb(142, 11, 7)";
+            }
+        
+    }
     
 
  }
