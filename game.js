@@ -2,6 +2,7 @@ let button=document.querySelector(".move");
 let boxes=document.querySelectorAll(".choices");
 let playerS=document.querySelector(".my");
 let compS=document.querySelector(".comp");
+let resetbtn=document.querySelector(".reset");
 
 let playerScore=1;
 let compScore=1;
@@ -75,3 +76,12 @@ let compScore=1;
     
 
  }
+ resetbtn.addEventListener("click",()=>{
+    button.innerText="Play your move";
+    button.style.backgroundColor="rgb(16, 15, 30)";
+    playerScore=1;
+    compScore=1;
+     playerS.innerText=0;
+     compS.innerText=0;
+     
+ })
