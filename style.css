@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 246, 143);
+}
+
+h1{
+    background-color: rgb(235, 177, 135);
+    height: 80px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.rock{
+    background-image: url(rock.png);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.paper{
+    background-image: url(paper.png);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.scissor{
+    background-image: url(scissors.png);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.scores{
+     
+     height: 100px;
+     display: flex;
+     padding-left: 400px;
+     padding-right: 400px;
+     justify-content: space-evenly;
+}
+ .myscore{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 1, 1);
+    
+ }
+ .compscore{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 1, 1);
+ }
+
+ .comp{
+   
+     padding-left : 100px;
+     padding-top: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .my{
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .move{
+    text-align: center;
+    background-color: rgb(16, 15, 30);
+    height: 55px;
+    width: auto;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    display : block;
+    margin: 0 auto;
+    border: transparent;
+    padding: 10px;
+    margin-top: 30px;
+
+ }
