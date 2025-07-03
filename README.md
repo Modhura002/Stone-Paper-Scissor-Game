@@ -7,7 +7,7 @@ Built using **HTML**, **CSS**, and **JavaScript**.
 
 ## 📸 Screenshot
 
-![Game Screenshot](screenshot of game.png)
+![Game Screenshot]screenshot of game.png
 
 ---
 
